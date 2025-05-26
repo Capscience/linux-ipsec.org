@@ -1,6 +1,6 @@
 Title: 2018 Linux IPsec workshop, Dresden (26 - 28 March)
 Date: 2025-03-07
-Summary: Summary TODO
+Summary: The first Linux IPsec workshop was held 26 - 28 March 2018 in Dresden, Germany as a standalone event.
 
 ### From the Libreswan Team:
 
@@ -36,7 +36,7 @@ proposed:
 - Should be possible to tunnel IPv4 and IPv6 through the same interface.
 - Should be possible to use IPsec hardware offloads of the underlying interface.
 
-RFC code that implements this was published before the workshop: [link](https://git.kernel.org/pub/scm/linux/kernel/git/klassert/linux-stk.git/log/?h=ipsec-next-xfrmi2) This code was reviewed and tested during the workshop. People agreed to continue this approach and to do more testing and review after the workshop.
+RFC code that implements this was published before the workshop: [https://git.kernel.org/pub/scm/linux/kernel/git/klassert/linux-stk.git/log/?h=ipsec-next-xfrmi2](https://git.kernel.org/pub/scm/linux/kernel/git/klassert/linux-stk.git/log/?h=ipsec-next-xfrmi2) This code was reviewed and tested during the workshop. People agreed to continue this approach and to do more testing and review after the workshop.
 
 ### [Usecase and Requirements for new XFRMI a secunet’s point of view]({static}/slides/2018/xfrmi_usecase_lrk-CL.pdf) by Christian Langrock, secunet Security Networks AG
 
@@ -102,7 +102,7 @@ Sowmini/Paul to go and try this out over the next couple of weeks.
 
 ### [Libreswan presentation and discussion session]({static}/slides/2018/IPsecSummit201803-PW.pdf) by Paul Wouters
 
-[link](https://libreswan.org/wiki/Linux_IPsec_Summit_2018_wishlist)
+[https://libreswan.org/wiki/Linux_IPsec_Summit_2018_wishlist](https://libreswan.org/wiki/Linux_IPsec_Summit_2018_wishlist)
 
 ### Post Quantum Crypto by Kai Martius
 
@@ -121,7 +121,7 @@ After that, Steffen did a live demo of the forwarding fastpath to show that this
 
 ### [Strongswan Presentation and discussion session]({static}/slides/2018/strongSwan-AS-TB.pdf) by Andreas Steffen / Tobias Brunner
 
-[link](https://wiki.strongswan.org/projects/strongswan/wiki/Linux_IPsec_Workshop_2018)
+[https://wiki.strongswan.org/projects/strongswan/wiki/Linux_IPsec_Workshop_2018](https://wiki.strongswan.org/projects/strongswan/wiki/Linux_IPsec_Workshop_2018)
 
 ### crypto async callbacks by Hannes Frederic Sowa
 
