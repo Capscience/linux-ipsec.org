@@ -1,5 +1,5 @@
 Title: 2019 Linux IPsec workshop, Prague (18 - 20 March)
-Date: 2025-03-13
+Date: 2019-03-20
 Summary: The 2019 Linux IPsec workshop was held 18 - 20 March in Prague, Czech Republic, just before Netdev 0x13.
 
 - Recap IPsec workshop 2018

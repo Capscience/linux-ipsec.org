@@ -1,5 +1,5 @@
 Title: 2023 Linux IPsec/Netfilter workshop, Dresden (11 - 14 September)
-Date: 2025-05-26
+Date: 2023-09-14
 Summary: The 2023 Linux IPsec/Netfilter workshop took place 11 - 14 September in Dresden, Germany.
 
 ## Topics

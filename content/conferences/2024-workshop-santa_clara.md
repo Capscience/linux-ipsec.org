@@ -1,5 +1,5 @@
 Title: 2024 Linux IPsec workshop, Santa Clara (15 - 16 July)
-Date: 2025-05-26
+Date: 2024-07-16
 Summary: The 2024 Linux IPsec workshop was held 15 - 16 July in Santa Clara, California, colocated with the Netdev 0x18 conference.
 
 ## Topics

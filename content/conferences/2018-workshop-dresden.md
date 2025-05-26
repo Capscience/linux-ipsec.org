@@ -1,5 +1,5 @@
 Title: 2018 Linux IPsec workshop, Dresden (26 - 28 March)
-Date: 2025-03-07
+Date: 2018-03-28
 Summary: The first Linux IPsec workshop was held 26 - 28 March 2018 in Dresden, Germany as a standalone event.
 
 ### From the Libreswan Team:

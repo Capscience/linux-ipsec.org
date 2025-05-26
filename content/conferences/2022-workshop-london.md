@@ -1,5 +1,5 @@
 Title: 2022 Linux IPsec workshop, London (3 - 5 November)
-Date: 2025-05-26
+Date: 2022-11-05
 Summary: The 2022 Linux IPsec workshop took place from 3 - 5 November, right before IETF 115 in London, UK.
 
 ## Workshop Notes
