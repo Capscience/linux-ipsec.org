@@ -8,9 +8,9 @@ Summary: The 2022 Linux IPsec workshop took place from 3 - 5 November, right bef
 - Article on nftable flow-offload [https://thermalcircle.de/doku.php?id=blog:linux:flowtables_1_a_netfilter_nftables_fastpath](https://thermalcircle.de/doku.php?id=blog:linux:flowtables_1_a_netfilter_nftables_fastpath)
 - Banana Pi hardware support nftable offload.
 - pCPU Draft: Fallback SA violates IPsec architectural document: One SA is more special than the other SA. Remove this requirement fallback SA.
-  - CH: reconsider lock less hand off a packet to another cpu. would solvefallback SA.
-  - CH: Use one cpu as sorter to distribute packet.
-  - TK: Steady state all necessary cpus should have the SA. Optimize for that.
+    - CH: reconsider lock less hand off a packet to another cpu. would solvefallback SA.
+    - CH: Use one cpu as sorter to distribute packet.
+    - TK: Steady state all necessary cpus should have the SA. Optimize for that.
 - BEET mode draft: Mention fragmentation issue. One solution is reassemble the ipv4 packet before encapsulation ike negotiation should say ﬁnal narrowed TSi and TSr should one host ie. /32 and /128
 - Mellanox driver put the packet data next to descriptor. when you fetch descriptor you get 64 bytes prefetched.
 - ESPING: using tfs as aliveness check. TFS if it support constant bitrate, then in a "burst-mode" variation using a very slow constant bit rate tunnel with congestion control enabled gets you a liveness check but with on demand operation. Intial patchset would not support constant bit rate or burst mode.
