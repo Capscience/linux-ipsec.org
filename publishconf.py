@@ -9,7 +9,7 @@ from pelicanconf import *  # noqa: F403
 
 
 # If your site is available via HTTPS, make sure SITEURL begins with https://
-SITEURL = "https://linux-ipsec.linux-ipsec.org"
+SITEURL = "https://linux-ipsec.org"
 RELATIVE_URLS = False
 
 FEED_ALL_ATOM = "feeds/all.atom.xml"

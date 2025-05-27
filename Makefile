@@ -70,8 +70,8 @@ devserver-global:
 	$(PELICAN) -lr $(INPUTDIR) -o $(OUTPUTDIR) -s $(CONFFILE) $(PELICANOPTS) -b 0.0.0.0
 
 publish:
-	tailwindcss -i $(BASEDIR)/input.css -o $(OUTPUTDIR)/output.css --minify
 	"$(PELICAN)" "$(INPUTDIR)" -o "$(OUTPUTDIR)" -s "$(PUBLISHCONF)" $(PELICANOPTS)
+	tailwindcss -i $(BASEDIR)/input.css -o $(OUTPUTDIR)/output.css --minify
 
 
 .PHONY: html help clean regenerate serve serve-global devserver publish
