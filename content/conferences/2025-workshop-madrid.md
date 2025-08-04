@@ -36,7 +36,7 @@ Michael held a presentation about the Autonomic Control Plane (ACP).
 The presentation included some basics of ACP, as well as some insights to Michael's solution called Minerva.
 The architecture and challenges in implementation were discussed.
 
-### [Enterprise Networking with IPsec and Dynamic Routing]({static}/slides/2025/enterprise-networking-with-ipsec-and-dynamic-routing.pdf) by Simo Soini
+### [Enterprise Networking with IPsec and Dynamic Routing]({static}/slides/2025/soini-enterprise-networking-with-ipsec-and-dynamic-routing.pdf) by Simo Soini
 Simo presented his plans for an experiment on enterprise networking using IPsec for securing the traffic and dynamic routing between tunnels.
 
 
@@ -65,7 +65,7 @@ The focus was on the slight differences between negotiation for ESP versus EESP.
 ### [EESP Stateless Encryption Scheme]({static}/slides/2025/xialiang-eesp-stateless-encryption.pdf) by Frank Xialiang
 
 
-### [Industry Trends in HPC/AI workloads and ESP-like Protocols]({static}/slides/2025/) by Anthony Anthony
+### Industry Trends in HPC/AI workloads and ESP-like Protocols by Anthony Anthony
 Anthony gave an overview about industry trends in high-performance computing and AI.
 
 Related links:
