@@ -42,4 +42,9 @@
   a {
     text-decoration-line: underline;
   }
+
+  .highlight {
+    padding: calc(var(--spacing) * 4);
+    overflow: scroll;
+  }
 }

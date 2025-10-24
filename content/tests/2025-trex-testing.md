@@ -11,32 +11,32 @@ Pre-requieset:  Mellanox DOCA-OFED is started.<br>
 Start the TRex server once and leave it running in the foreground. I prefer to run it inside a screen session. You can access it vis "screen -x and see the output". The server should be started in Python 3.9 venv.
 
 ### Login to sunset and start Python 3.9 venv
-<pre>
+```bash
 cd /root
 source ./venv/bin/activate
 # To verify:
 type python3.9; #python3.9 is hashed (/root/venv/bin/python3.9)
-</pre>
+```
 
 I prefer to tart "screen bash" in this virtual environment. Inside the screen, and then start the TRex server.
 
-### Start the TRex server 
-<pre>
+### Start the TRex server
+```bash
 cd /var/tmp/trex-v3.06
 ./t-rex-64 -i --no-scapy --cfg /etc/trex_cfg.yaml -c 8
-</pre>
+```
 
 It will take a few seconds, and this will run in the foreground.
 
-### Run TRex script 
-<pre>
-cd /root/ietf-123-pcpu/tests-trex; 
+### Run TRex script
+```bash
+cd /root/ietf-123-pcpu/tests-trex;
 e.g.
 
 ./u1.py or
 
 ./u1.py --src-ip 192.0.1.253 --dst-ip 192.0.2.253 --pps 1M --frame-size 1518 --flows 2 --duration 10 --flows-end   2 --runs 2
-</pre>
+```
 
 u1.py is my script. A simple UDP send and collect results in JSON. Then I use panda plots to generate plots.
 
@@ -47,7 +47,7 @@ Install DOCA-OFED following instructions from Mellanox website.
 To start "mst start" # once.
 
 Then the output should look something similarr.
-<pre>
+```
  mst status --v
 MST modules:
 ------------
@@ -65,4 +65,4 @@ DEVICE_TYPE             MST                           PCI       RDMA            
 ConnectX5(rev:0)        /dev/mst/mt4121_pciconf0.1    01:00.1   mlx5_1          net-                               redwest                             0
 
 ConnectX5(rev:0)        /dev/mst/mt4121_pciconf0      01:00.0   mlx5_0          net-                               redeast                             0
-</pre>
+```
