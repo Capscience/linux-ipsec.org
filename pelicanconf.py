@@ -2,7 +2,7 @@ SITENAME = "IPsec and Network Security"
 SITEURL = "http://127.0.0.1:8000"
 
 PATH = "content"
-ARTICLE_PATHS = ["conferences", "tests"]
+ARTICLE_PATHS = ["conferences", "research"]
 
 TIMEZONE = "UTC"
 
