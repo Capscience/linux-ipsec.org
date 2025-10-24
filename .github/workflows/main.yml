@@ -36,6 +36,7 @@ jobs:
       - name: Generate output
         run: |
           make publish
+          cp highlights.css output/
       - name: Deploy to server
         uses: AEnterprise/rsync-deploy@v1.0.2
         env:
