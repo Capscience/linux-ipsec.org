@@ -8,7 +8,7 @@ The 2026 Linux IPsec workshop was held in Vienna from July 16th to 17th.
 
 ## Presentation Notes and Slides
 
-### VPN Measurements on two host systems by Hannes Tschofenig and Paul Wouters
+### [VPN Measurements on two host systems]({static}/slides/2026/tschofenig-vpn-measurements.pdf) by Hannes Tschofenig and Paul Wouters
 
 Hannes and Paul have been testing VPN performance with IPsec and Wireguard on a
 two host system. The hosts were equipped with Connectix 7 NICs.
@@ -57,7 +57,7 @@ need more research about wether or not they are still being used.
 
 Anthony talked about his Linux kernel prototype implementation of ESP ping.
 
-### IKEv2 Group assisted Key Establishment by Steffen Klassert
+### [IKEv2 Group assisted Key Establishment]({static}/slides/2026/klassert-ikev2-kms-gkms-intro.pdf) by Steffen Klassert
 
 Group assisted key establishment was discussed last year in Madrid. Steffen presented
 his and Anthony's work on an [initial draft](https://github.com/antonyantony/ikev2-kms/blob/main/ikev2-kms.org).
@@ -81,7 +81,7 @@ it is ready and should be pushed forward in the ipsecme working group session.
 
 ### [KEM-based authentication in IKEv2]({static}/slides/2026/smyslov-ikev2-authkem.pdf) by Valery Smyslov
 
-### Documentation/networking/xfrm*.rst by Michael Richardson
+### [Documentation/networking/xfrm*.rst]({static}/slides/2026/richardson-ipsec-workshop-documentation.pdf) by Michael Richardson
 
 Improving the documentation of XFRM has been long overdue. Michael offers a proposal
 about how to reorganize the file structure and go through existing documentation
@@ -97,7 +97,7 @@ As it is IKEv2 can't be used to handle key management for the PSP Security
 Protocol by Google. Valery explained how IKEv2 could be expanded to work
 with PSP, described in [draft-smyslov-ipsecme-ikev2-psp](https://datatracker.ietf.org/doc/draft-smyslov-ipsecme-ikev2-psp/).
 
-### Diet-ESP for 5G Fronthaul by Daniel Migault
+### [Diet-ESP for 5G Fronthaul]({static}/slides/2026/migault-diet-esp.pdf) by Daniel Migault
 
 Daniel presented his work on running diet-ESP for 5G fronthaul, which has very strict
 latency requirements and a need for a specific number of packets per second.
